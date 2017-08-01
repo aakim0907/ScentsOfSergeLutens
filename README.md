@@ -9,6 +9,7 @@ Serge Lutens is a well-known perfume brand launched by Serge Lutens, who is a Fr
 - [ ] Scrape note information using Node.js
 - [ ] Visualize and connect nodes of fragrance notes using D3.js
 - [ ] Implement on-hover & on-click event handlers on data visualization
+- [ ] Implement filters for different types (Ambery / Gourmands / Mohair / Floral / Woody) and display prevalent notes
 - [ ] Display a shelf of Serge Luten main-line perfumes (interactive with data visualization)
 - [ ] A production Readme
 
@@ -32,15 +33,15 @@ This project will be implemented with the following technologies:
 **Day 2** 
 - Scrape fragrance notes data from basenotes.com
 - Render fragrance notes in nodes and make connections per perfume
+- Display the node of each fragrance notes' size relative to its prevalence
 
 **Day 3**
-- Display the node of each fragrance notes' size relative to its prevalence
-- Add event handlers on nodes and connections (hover & click)
+- Add event handlers on nodes and connections (hover & click & drag)
+- Build shelf of Serge Lutens perfumes
 
 **Day 4**
-- Build clickable shelf of Serge Lutens perfumes
 - Link images of each perfume to a specific connection in data vizualization
-
+- Add filters each rendering its own visualization
 
 ### Bonus features
 
