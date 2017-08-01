@@ -1,11 +1,11 @@
 {
   "name": "ScentsOfSergeLutens",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/aakim0907/ScentsOfSergeLutens.git",
   "author": "Young Eun Kim <aakim0907@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.16.2",
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.81.0"
   }
