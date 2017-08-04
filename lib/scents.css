@@ -97,9 +97,12 @@ svg {
 
 /*Footer*/
 footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   height: 13%;
   background-color: black;
+  padding-top: 5px;
 }
 
 small {
@@ -108,8 +111,19 @@ small {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*div > i {
-  font-size: 2em;
+div.icon-box {
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  margin: 8px;
+}
+
+div.icon-box > a > i {
+  font-size: 20px;
   margin: 0 8px;
   color: #ffecdc;
-}*/
+}
+
+div.icon-box > a > i:hover {
+  color: #FFC28F;
+}
