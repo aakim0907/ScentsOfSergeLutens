@@ -3,6 +3,7 @@
 [Scents of Serge Lutens](http://scentsd3.com) is a data visualization project showing the prevalence and links between fragrance notes of Serge Lutens' main-line perfumes that uses JavaScript, node.js library, d3.js library and HTML/CSS.
 
 ![main page][main]
+![interaction_gif][interaction]
 
 ## Main Features
 
@@ -37,10 +38,12 @@ for (const key of Object.keys(updatedPerfumeList)) {
       }
     }
   }
+  ...
 ```
 
+Sample json data:
 
-// sample json data
+```js
 { "nodes":[
   ...
   {"id":5,"name":"Musk","value":40},
@@ -66,7 +69,7 @@ for (const key of Object.keys(updatedPerfumeList)) {
 ### Force-directed Graph
 The data visualization renders each nodes of fragrance notes with its size relative to its value which represents the number of other fragrance notes they are connected to. Each nodes are connected if they are used in a perfume together. The users are allowed to drag the nodes to see which node connects with which nodes. Since there are too many links between the nodes, the users are also allowed to double click on each nodes to see only the nodes that are connected.
 
-![interaction_gif][interaction]
+![graph][select_node]
 
 ```js
 function connectedNodes() {
@@ -110,3 +113,4 @@ Some anticipated updates to this project are:
 
 [main]: ./docs/main_page.png
 [interaction_gif]: ./docs/interaction.gif
+[select_node]: ./docs/select_node.png
